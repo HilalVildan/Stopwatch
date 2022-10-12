@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: pink;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    background-color: hotpink;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+}
+
+.header p{
+    font-size: 40px;
+    margin-top: 25px;
+    color: bisque;
+}
+
+.watch{
+    font-size: 100px;
+    margin-top: 5px;
+}
+
+.btndiv{
+    margin-top: 35px;
+    width: 250px;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.buton{
+    border: 1px solid hotpink;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgba(245, 245, 220, 0.817);
+}
+
+.fa-solid{
+    font-size:40px;
+    color:darkslategrey;
+}
+
+.buton-pause{
+    display: none;
+}

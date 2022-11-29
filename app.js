@@ -25,6 +25,8 @@ stop.addEventListener("click", () => {
 
 reset.addEventListener("click", () => {
   clearInterval(interval);
+  start.style.display = "block";
+  stop.style.display = "none";
   getMinutes.textContent = "00";
   getSeconds.textContent = "00";
   getTens.textContent = "00";
